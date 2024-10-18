@@ -1,0 +1,24 @@
+/*文字style*/
+.title-text{
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap; /*文字不換行*/
+    color: rgb(60, 60, 60);/*顏色*/
+    font-weight: 900; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-size: 2vw;
+    -webkit-text-stroke: 0.6px rgb(60, 60, 60);
+    letter-spacing: 20px;
+}
+.context-text{
+    width: fit-content;
+    height: fit-content;
+    color: rgb(113, 113, 113);/*顏色*/
+    font-weight:normal; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+    letter-spacing: 3px;
+}

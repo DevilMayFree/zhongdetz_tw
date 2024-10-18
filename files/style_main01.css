@@ -1,0 +1,18 @@
+/*html*/
+
+/*body*/
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+/*包裹整個頁面 (控制-置中)*/
+.page{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

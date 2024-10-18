@@ -1,0 +1,79 @@
+/* 頁尾 */
+.footer-container{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(213, 213, 213);
+}
+
+/*頁尾*/
+.grid.footer-grid{
+    width: 100%;
+    height: fit-content;
+	position: relative;
+	display: grid;
+	justify-content: center;
+    text-align: center;
+    text-align: left;
+    grid-template-columns: 1fr 1.4fr 1.4fr; /*設定欄位數量,大小*/
+}
+
+/*頁尾*/
+.container.footer-grid-container{
+    width: 100%;
+    margin-top: 40px;
+    height: fit-content;
+    position: relative;
+}
+
+.container.footer-info-container{
+    margin-right: 15px;
+}
+
+.footer-info-list{
+    margin-top: 8px;
+    padding-left: 0;
+}
+.footer-info-list.footer-info-icon-list li{
+    line-height: 35px;
+}
+
+.footer-info-list li{
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.footer-icon-container{
+    display: flex; 
+    align-content: center;
+}
+
+.footer-icon-container img{
+    position: relative;
+    margin-top: 5px;
+    height:25px;
+}
+
+.footer-icon-container span{
+    margin-left: 10px;
+}
+
+/*頁尾文字style*/
+.footer-text{
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap; /*文字不換行*/
+    color: black;/*顏色*/
+    font-weight: bold; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-large-text{
+    font-size: 1.4vw;
+}
+.footer-medium-text{
+    font-size: 1vw;
+}

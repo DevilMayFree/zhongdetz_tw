@@ -1,0 +1,70 @@
+/* 圖文區塊*/
+.image-and-text-section-wraper{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+}
+
+/*Section標題容器*/
+.title-imageText-container{
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 25px; 
+}
+
+/*Section標題*/
+.title-imageText{
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap; /*文字不換行*/
+    color: rgb(60, 60, 60);/*顏色*/
+    font-weight: 900; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-size: 37px;
+    letter-spacing: 20px;
+    -webkit-text-stroke: 0.6px rgb(60, 60, 60);
+}
+
+/* 設定圖文區塊容器的大小 */
+.imageText-Block {
+	width: 77%;
+	height: 22vw;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+/* 設定圖片容器的大小 */
+.imageText-img-container {
+	width: 40%;
+    overflow: hidden;  
+}
+
+/* 設定圖片的大小 */
+.imageText-img-container img {
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	scale: 0.90;
+}
+
+/*設定文字區塊*/
+.imageText-text-container{
+	width: 60%;
+	display: flex;
+    margin-left: 2%;
+	justify-content: left;
+}
+
+.imageText-textBOX{
+	width: 90%;
+	height: fit-content;
+	margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}

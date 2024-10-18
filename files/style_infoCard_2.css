@@ -1,0 +1,123 @@
+/* 資訊卡 */
+.t-infoCard-container{
+    height: fit-content;
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5vw;
+	background-position: -90px -90px; 
+	background-size: 118% 160%;
+}
+
+.t-imgCard-container-frame{
+	width: 67%;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*標題*/
+.t-paragraph-title{
+	height: fit-content;
+	width: 100%;
+	position: relative;
+	margin-top: 15px;
+	text-align: center;
+}
+
+/*圖片框框(Grid)*/
+.t-image-card {
+	width: 100%;
+	height: 65%;
+	position: relative;
+	display: grid;
+	justify-content: center;
+	margin-bottom: 60px;
+	margin-top: 30px;
+	grid-template-columns:6fr repeat(4, 54fr 6fr); /*設定欄位數量,大小*/
+}
+
+/*圖片框(一格)*/
+.t-image-card-frame{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;   
+	display: flex;
+}
+/*圖片*/
+.t-image-card-frame img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	transform: scale(1);
+}
+
+.t-image-text-wraper{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border: 6px solid white;
+	overflow: hidden;
+}
+
+.t-infoText{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex; 
+}
+
+.t-info-Text-container{
+	width: 100%;
+	height: fit-content; 
+	position: relative;
+	margin-left: 5px; 
+	margin-top: 5px;
+}
+
+/*標題文字style*/
+.t-infoCard-title{
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap; /*文字不換行*/
+    color: white;/*顏色*/
+    font-weight: 550; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.4vw;
+}
+/*內文文字style*/
+.t-infoCard-context{
+    width: fit-content;
+    height: fit-content;
+    color: white;/*顏色*/
+    font-weight: normal; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-size: 0.73vw;
+	letter-spacing: 0vw;
+	line-height: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+}
+
+.ts-infoCard-title{
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap; /*文字不換行*/
+    color: white;/*顏色*/
+    font-weight: 550; /*文字粗體*/
+    text-align: justify; /*文字分散對齊*/
+    vertical-align: middle; /*垂直置中對齊*/
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 5px;
+}

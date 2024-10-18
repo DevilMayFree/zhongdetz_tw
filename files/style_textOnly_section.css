@@ -1,0 +1,16 @@
+/* 文字區塊*/
+.text-section-wraper{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*純文字段落*/
+.text-paragraph-container{
+    height: fit-content;
+    width: 74%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
