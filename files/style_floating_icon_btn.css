@@ -10,6 +10,7 @@
     z-index: 5;
 }
 .icon-container.appear {
+    display: none!important;
     right: 4%;
 }
 
